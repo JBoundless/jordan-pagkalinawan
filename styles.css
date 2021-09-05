@@ -1,47 +1,26 @@
 body {
-  text-align: center;
-  justify-content: center;
-  line-height: 2;
-  font-family: 'Roboto Condensed', sans-serif;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to right, #525252, #3d72b4);
-}
-.row {
-  margin: auto;
-}
-.card {
-  border-radius: 25px;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(30px);  /* This will produce the blur */
-  border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  text-align: center;
-  width: 40%;
-  margin-left: auto;
-  margin-right: auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.campusvarta.com/wp-content/uploads/2020/04/vintage-keyboard-typewriter-old.jpg");
+ height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-button {
-  background-color: #87CEEB;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 16px;
-  justify-content: space-between;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-footer {
-  text-align: center;
-}
-a:hover {
-    background-color: white;
+.hero-text {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
   }
-.socials {
-  justify-content: center;
-  text-align: center;
+
+.hero-text p {
+  font-size: 20px;
+}
+
+.hero-text a:hover {
+  background-color: white;
 }
