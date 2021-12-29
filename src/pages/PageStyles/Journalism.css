@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.journalism {
+  text-align: center;
+  justify-content: left;
+  flex-direction: column;
+  line-height: 2;
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+  display: flex;
+  background-color: #f2eecb;
+  font-size: 15px;
+}
+
+#journo-image {
+  width: 100%;
+}
