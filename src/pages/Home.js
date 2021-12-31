@@ -1,5 +1,4 @@
 import React from 'react';
-import LazyHero from 'react-lazy-hero';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 import WorkCards from '../components/WorkCards';
