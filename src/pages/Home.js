@@ -5,14 +5,16 @@ import Card from 'react-bootstrap/Card';
 import WorkCards from '../components/WorkCards';
 import ExperienceCard from '../components/ExperienceCard';
 import Awards from '../components/Awards';
+import ReactHero from '../components/ReactHero';
 
 function Home() {
   return (
     <div className="Home">
-      <LazyHero imageSrc="https://www.campusvarta.com/wp-content/uploads/2020/04/vintage-keyboard-typewriter-old.jpg">
+    <ReactHero />
+      /* <LazyHero imageSrc="https://www.campusvarta.com/wp-content/uploads/2020/04/vintage-keyboard-typewriter-old.jpg">
         <h1 style={{fontSize: "40px"}}>Jordan Pagkalinawan</h1>
         <p style={{fontSize: "20px"}}>Student journalist.</p>
-      </LazyHero>
+      </LazyHero> */
       <section id="about" style={{paddingBottom: '15px'}}>
         <h1>Hello!</h1>
         <p>
