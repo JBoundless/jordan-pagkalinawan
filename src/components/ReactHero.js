@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './HeroStyle.css';
 
 export default class ReactHero extends Component {
   render() {
