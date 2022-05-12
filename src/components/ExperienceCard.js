@@ -10,6 +10,7 @@ export default function ExperienceCard() {
     <Card>
   <Card.Header style={{fontWeight: 700}}>Journalism</Card.Header>
   <ListGroup variant="flush">
+  <ListGroup.Item>Journalist/UX Developer Intern, IN.S.P.I.RE. Global, Inc (Jan. 2022 - Present)</ListGroup.Item>
   <ListGroup.Item>Community Journalist (Jan. 2015 - Present)</ListGroup.Item>
     <ListGroup.Item>Varsity Basketball Beat Writer, <i>The Loyalist</i> (Oct. 2018 - Feb. 2020, Sep. 2021 - Present)</ListGroup.Item>
     <ListGroup.Item>Sports Editor, <i>The Loyalist</i> (Aug. 2020 - Jun. 2021)</ListGroup.Item>
